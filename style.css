@@ -6,14 +6,32 @@ body {
 	text-align: center;
 }
 
+.welcome p {
+	text-align: center;
+}
+
+.welcome img {
+	max-width: 50%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
 .navigation {
 	text-align: center;
+	color: #00008B;
 }
 
 .contacts {
 	text-align: center;
+	position: absolute;
+	width: 300px;
+	bottom: 15px;
+	left: 50%;
+	margin-left: -150px;
 }
 
 .aboutMe h2 {
 	text-align: center;
 }
+
