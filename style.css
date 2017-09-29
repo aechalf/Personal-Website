@@ -1,13 +1,49 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url(http://fonts.gstatic.com/s/notosans/v6/LeFlHvsZjXu2c3ZRgBq9nJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(http://fonts.gstatic.com/s/raleway/v11/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(http://fonts.gstatic.com/s/raleway/v11/JbtMzqLaYbbbCL9X6EvaIwzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
 body {
-	background-color: #DDDDDD;
+	background-color: #f3f4f6;
 }
 
 .pageTitle {
+	position: relative;
+	top: 50px;
+	color: #000080;
 	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+}
+
+.welcome {
+	position: relative;
+	top: 50px;
 }
 
 .welcome p {
+	color: #000080;
 	text-align: center;
+	font-family: "Noto Sans", sans-serif;
 }
 
 .welcome img {
@@ -19,19 +55,67 @@ body {
 
 .navigation {
 	text-align: center;
-	color: #00008B;
+	background-color: #b4bec4;
+	font-family: "Noto Sans", sans-serif;
+	padding:5px 5px;
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+}
+
+.navigation a {
+	text-decoration: none;
+	display: inline-block;
+	color: #000080;
+	padding: 12px 14px;
+}
+
+.navigation a:hover {
+	border-radius: 5px;
+	background-color: #f3f4f6;
 }
 
 .contacts {
-	text-align: center;
+	/*text-align: center;*/
+	list-style-type: none;
+	background-color: #b4bec4;
+	margin: 0;
+	overflow: hidden;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 12px;
+	padding:5px 5px;
 	position: absolute;
-	width: 300px;
-	bottom: 15px;
-	left: 50%;
-	margin-left: -150px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.contacts li {
+	float: left;
+}
+
+.contacts li a {
+	display: block;
+	color: #000080;
+	text-align: center;
+	padding: 8px 10px;
+	text-decoration: none;
+}
+
+.contacts li a:hover {
+	color: #f3f4f6;
+}
+
+.aboutMe {
+	position: relative;
+	top: 50px;
+	color: #000080;
 }
 
 .aboutMe h2 {
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
 	text-align: center;
 }
 
