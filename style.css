@@ -76,6 +76,14 @@ body {
 	background-color: #f3f4f6;
 }
 
+/*.footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+}*/
+
 .contacts {
 	/*text-align: center;*/
 	list-style-type: none;
@@ -110,12 +118,34 @@ body {
 .aboutMe {
 	position: relative;
 	top: 50px;
+	left:25%;
+	min-width: 300px;
+	width: 50%;
 	color: #000080;
+	text-align: justify;
 }
 
 .aboutMe h2 {
 	font-family: "Raleway", sans-serif;
 	font-weight: bold;
-	text-align: center;
+}
+
+.aboutMe h3 {
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+}
+
+.aboutMe p {
+	font-family: "Noto Sans", sans-serif;
+}
+
+.aboutMe ul {
+	list-style-type: circle;
+	font-family: "Noto Sans", sans-serif;
+}
+
+.aboutMe li a {
+	color: #000080;
+	text-decoration: none;
 }
 
