@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url(http://fonts.gstatic.com/s/notosans/v6/LeFlHvsZjXu2c3ZRgBq9nJBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(http://fonts.gstatic.com/s/raleway/v11/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(http://fonts.gstatic.com/s/raleway/v11/JbtMzqLaYbbbCL9X6EvaIwzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+	background-color: #f3f4f6;
+}
+
+div.container {
+	width: 100%;
+}
+
+header , footer {
+	background-color: black;
+	/*text-align: center;*/
+	background-color: #b4bec4;
+	font-family: "Noto Sans", sans-serif;
+}
+
+nav {
+	text-align: center;
+	margin: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 10px;
+}
+
+nav ul a {
+	color: #000080;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav ul a:hover {
+	border-radius: 5px;
+	background-color: #f3f4f6;
+}
+
+nav li {
+	display: inline;
+}
+
+footer ul {
+	list-style-type: none;
+	padding: 10px;
+}
+
+footer ul a {
+	text-decoration: none;
+	color: #000080;
+	padding: 10px;
+}
+
+footer ul a:hover {
+	color: #f3f4f6;
+}
+
+footer li {
+	display: inline;
+}
+
+h1 {
+	color: #000080;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+}
+
+.welcome img {
+	max-width: 50%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.welcome p {
+	color: #000080;
+	text-align: center;
+	font-family: "Noto Sans", sans-serif;
+}
+
+.aboutMe {
+	color: #000080;
+	text-align: justify;
+	margin: 20px;
+}
+
+.aboutMe h2 {
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+}
+
+.aboutMe h3 {
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+}
+
+.aboutMe p {
+	font-family: "Noto Sans", sans-serif;
+}
+
+.aboutMe ul {
+	list-style-type: circle;
+	font-family: "Noto Sans", sans-serif;
+}
+
+.aboutMe li a {
+	color: #000080;
+	text-decoration: none;
+}
+
