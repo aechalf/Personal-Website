@@ -1,0 +1,9 @@
+https://builtvisible.com/hand-coding-personal-website/ good website for how to start building a website
+
+what it says: use a boilerplate template, read up on responsive design like grid systems and fluid layouts
+
+extra stuff: figure out how to configure 404 pages
+
+this also has design tools and resources, for things like color, fonts, etc
+
+figure out how to customize my server (on the azure side of things)
